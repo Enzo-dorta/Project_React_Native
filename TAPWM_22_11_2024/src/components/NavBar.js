@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <View style={styles.nav}>
-      {/* Logo */}
+      {}
       <TouchableOpacity onPress={() => navigation.navigate('Home')}>
         <Image source={require('../../aviao.png')} style={styles.logo} />
       </TouchableOpacity>
